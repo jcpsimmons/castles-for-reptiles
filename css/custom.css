@@ -29,3 +29,36 @@
     font-size: 3.5rem;
   }
 }
+
+/* Color Theme Swatches in Hex */
+.bg-custom-color-green {
+  background-color: #8ba651;
+}
+.bg-custom-color-muted-green {
+  background-color: #768c45;
+}
+.bg-custom-color-light-olive {
+  background-color: #8b8c5e;
+}
+.bg-custom-color-olive {
+  background-color: #595439;
+}
+.bg-custom-color-dark-blue {
+  background-color: #262626;
+}
+
+.custom-color-green {
+  color: #8ba651;
+}
+.custom-color-muted-green {
+  color: #768c45;
+}
+.custom-color-light-olive {
+  color: #8b8c5e;
+}
+.custom-color-olive {
+  color: #595439;
+}
+.custom-color-dark-blue {
+  color: #262626;
+}
