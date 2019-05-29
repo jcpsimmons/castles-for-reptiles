@@ -1,3 +1,20 @@
+.hero-image {
+  background-image: url(../img/wood-on-shore.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* this is hacky - should probably replace with JS */
+  height: 95.85vh;
+}
+
+.cover-headroom {
+  padding-top: 10vh;
+}
+
+.lead-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
