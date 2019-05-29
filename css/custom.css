@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .hero-image {
   background-image: url(../img/wood-on-shore.jpg);
   background-size: cover;
