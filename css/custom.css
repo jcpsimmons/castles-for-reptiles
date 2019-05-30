@@ -3,6 +3,14 @@ body {
   overflow-x: hidden;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* used on index.html */
 .hero-image {
   background-image: url(../img/wood-on-shore.jpg);
   background-size: cover;
@@ -33,6 +41,27 @@ body {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+/* used on products.html */
+
+.product-hero {
+  background-image: url(../img/wood-stack.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* this is hacky - should probably replace with JS */
+  height: 20vh;
+}
+
+.product-callout {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.product-footer-adjustments {
+  margin-top: 20px;
+  margin-left: -50px;
+  margin-right: -50px;
 }
 
 /* Color Theme Swatches in Hex */
