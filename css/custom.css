@@ -10,6 +10,16 @@ body {
   padding-right: 0;
 }
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
 /* used on index.html */
 .hero-image {
   background-image: url(../img/wood-on-shore.jpg);
@@ -62,6 +72,15 @@ body {
   margin-top: 20px;
   margin-left: -50px;
   margin-right: -50px;
+}
+
+/* used on contact.html */
+.contact-hero {
+  background-image: url(../img/envelopes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* this is hacky - should probably replace with JS */
+  height: 20vh;
 }
 
 /* Color Theme Swatches in Hex */
